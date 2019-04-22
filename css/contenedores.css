@@ -1,0 +1,154 @@
+ /* Background */
+
+body {
+  background: gray;
+}
+
+div.contenedor {
+  background: white;
+  width: 1000px;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+header {
+  background: orange;
+
+/*  height: 100vh; el elemento utiliza el total de la pantalla a lo alto
+  width: 100vw; el elemento utiliza el total de la pantalla a lo largo*/
+
+  margin-top: 0px;
+  /*padding-top: 20px;
+  padding-bottom: 20px;*/
+
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  top: 0;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+tbody tr td {
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
+
+  padding: 20px 10px 20px 10px;
+
+  /*
+  margin/padding: 12 3 6 9;
+  Ej. margin: 10px auto 10px 20px;
+
+  Otra forma
+
+  margin/padding: 12/6 3/9;
+
+  Ej. padding: 10px 30px;
+  */
+}
+
+nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+nav {
+  background: purple;
+  padding: 20px 0;
+}
+
+nav ul li {
+  float: left;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+}
+
+section#introduccion {
+  background: orange;
+  padding: 80px;
+  background-image: url(../img/css3.png), url(../img/html5.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: bottom center, top center;
+
+
+}
+section#cursos {
+  background: orange;
+/*  border-top: 3px;
+  border-bottom: 3px;
+  border-left: 3px;
+  border-right: 3px;
+  border-style: dashed;
+  border-color: black;*/
+  border: 30px double white;
+
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+main {
+  width: 700px;
+  float: left;
+}
+
+.rojo {
+  background: red;
+}
+
+.azul {
+  background: blue;
+}
+
+div.padre {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+div.hijo {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 100px;
+  bottom: -100px;
+
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+table {
+  background: cyan;
+  width: 50%;
+  margin-left: 30px;
+  margin-bottom: 100px;
+
+}
+
+footer {
+  background: orange;
+  padding-top: 20px;
+}
+
+img.logocss {
+  width: 25%;
+}

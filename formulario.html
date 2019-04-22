@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form class="formulario" method="get">
+      <fieldset>
+        <legend>Información sobre tu curso:</legend>
+          <label for="turno">Turno:</label>
+            <select class="turno" id="turno" name="turno" required>
+              <option value="matutino">Matutino</option>
+              <option value="vespertino" selected>Vespertino</option>
+              <option value="Nocturno">Nocturno</option>
+            </select>
+            <br><br>
+            <label for="">¿Qué curso te gustaría qugregaramos?:</label>
+            <input list="propuesta" name="encuesta">
+            <datalist id="propuesta">
+              <option value="jQuery">
+              <option value="Aplicaciones Web">
+              <option value="AngularJS">
+              <option value="Bootstrap">
+            </datalist>
+            <br><br>
+            <label for="">Elige tus cursos:</label>
+            <br>
+            <input type="checkbox" name="" value="php">PHP <br>
+            <input type="checkbox" name="" value="css">CCS <br>
+            <input type="checkbox" name="" value="js">JavaScript <br>
+            <input type="checkbox" name="" value="mysql">MySQL <br>
+            <input type="checkbox" name="" value="jquery">jQuery <br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Extras</legend>
+        <label for="color">Las primeras 10 personas ganan una playera, elige el color:</label>
+        <input type="color"name="color" id=color value="">
+        <br><br><br>
+        <label for="fecha">Fecha de Nacimiento</label>
+        <input type="date" name="fecha" id="fecha" value=""> <br><br>
+        <input type="datetime-local" name="fecha" id="fecha" value="">
+        <input type="month" id="fecha">
+        <input type="time" name="" value="">
+        <input type="week" name="" value="">
+        <br><br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" name="" placeholder="correo@dominio.com">
+        <br><br>
+        <label for="">Tu sitio Web</label>
+        <input type="url" name="" value="" placeholder="www.example.com">
+        <br><br>
+        <label for="">Cuanto sabes de Programación:</label>
+        <input type="range" name="puntaje" value="" min="0" max="10">
+        <br><br>
+        <label for="">Personas que vienen contigo:</label>
+        <input type="number" name="puntaje" value="" min="1" max="5">
+      </fieldset>
+      <br><br>
+      <fieldset>
+        <legend>Usuario & Password</legend>
+        <input type="text" name="usuario" value="" placeholder="Usuario" required>
+        <br><br>
+        <input type="password" name="" value="" placeholder="Contraseña" required>
+      </fieldset>
+      <button type="reset" disabled>Borrar</button> <br> <br>
+      <input type="submit" name="" value="Enviar">
+    </form>
+  </body>
+</html>

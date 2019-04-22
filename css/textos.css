@@ -1,0 +1,86 @@
+
+/****** Se debe considerar que las fuentes que se utilicen de
+www.fontsquirrel.com o de otros sitios puede que requieran el pago
+de una licencia para su uso.
+
+@font-face {
+    font-family: 'acknowledgementmedium';
+    src: url('acknowledgement.woff2') format('woff2'),
+         url('acknowledgement.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*****/
+body {
+  font-family: Arial, Helvetica, serif;
+}
+
+h2 {
+  /*'acknowledgementmedium',*/ font-family: Verdana, Geneva, sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing:2px;
+  text-indent:200px;
+
+}
+/* Si la font tiene un nombre con mas de una palabra se pone entre comillas*/
+h3 {
+  font-family: 'Times New Roman', serif;
+  font-size: 22px;
+  font-variant: small-caps;
+  font-weight: normal;
+}
+
+div.noticia p {
+  text-indent: 50px;
+}
+
+p#parrafo {
+  font-family: Genova, Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: Genova, Helvetica, sans-serif;
+  font-size: 18px;
+  font-variant: small-caps;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#listado-cursos li em {
+  font-style: normal;
+}
+
+#listado-cursos li {
+  text-transform: lowercase;
+}
+
+section#introduccion p span {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a {
+  font-size:15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p.oferta span {
+  text-decoration: line-through;
+}
+
+div.oferta {
+  height: 80px;
+  background-color: red;
+}
+
+div.oferta h2 {
+  line-height: 80px; /*Se puede utilizar
+  centrar el texto, siempre y cuando sea solo una linea*/
+  font-variant: small-caps;
+}
